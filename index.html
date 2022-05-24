@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="projeto.js"></script>
+    <title>Assista a filmes e series online</title>
+</head>
+<body class="bg-black">
+    <div class="nome text-center">
+        <h1>FILMES ONLINE</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg cor1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Filmes Online</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Configurações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Contas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Lucas</a></li>
+                  <li><a class="dropdown-item" href="#">Pedro</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#infantil">Infantil</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sair</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/mulan2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/nivel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/nivel.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+    <div class="container text-light">
+        <h2>FILMES</h2>
+    </div>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img class="venom" src="img/venom.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="sereia" src="img/sereia.jpg" class="img-fluid" alt="...">
+                
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="stars" src="img/tallgirl.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="lod" src="img/lodgers.jpg" class="img-fluid" alt="...">
+                <div class="right"><a href="">ㅤ</a></div>
+                <div class="left"></div>
+            </div>
+        </div>
+    </div><!--fim container-->
+    <br>
+    <div class="container "><h2>SERIES</h2></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img class="you" src="img/you.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="controlz" src="img/controlz.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="the" src="img/the.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="brid" src="img/brid.jpg" class="img-fluid" alt="...">
+                <div class="right"><a href=""></a></div>
+            <div class="left"><a href="">ㅤ</a></div>
+        </div>
+            </div>
+    </div><br>
+    <div class="container bg-" id="infantil"><h2>INFANTIL</h2></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img class="lua" src="img/lua.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="dino" src="img/dino.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="peabody" src="img/peabody.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="madagascar" src="img/madagascar.jpg" class="img-fluid" alt="...">
+                <div class="right"><a href="">ㅤ</a></div>
+                <div class="left"></div>
+            </div>
+        </div>
+    </div><br>
+    <div class="container bg-"><h2>DOCUMENTARIOS</h2></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img class="veronica" src="img/veronica.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="bandidos" src="img/bandidos.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="doc" src="img/doc.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-3 efeito">
+                <img class="historias" src="img/historiasdefe.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
